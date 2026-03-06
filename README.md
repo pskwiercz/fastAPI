@@ -6,6 +6,7 @@ FastAPI
 
 ### Prepare env
 
+`python3 -m venv fastapivenv`
 <pre>
 ```bash
 python3 -m venv fastapivenv
@@ -13,7 +14,7 @@ source fastapivenv/bin/activate
 pip install "fastapi[standard]"
 pip install "uvicorn[standard]"
 pip list
-  ```
+```
 </pre>
 
 ### Run app
